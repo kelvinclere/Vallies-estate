@@ -26,8 +26,9 @@ hr{
 .navbar .logo a{
     font-size: 35px;
     font-weight: 600;
-    color: blue;
-    font-style: 'Oleo Script';
+    color: black;
+    font-family: 'Oleo Script Swash Caps';font-size: 32px;
+    margin-inline-start: 150px;
 }
 
 
@@ -68,18 +69,39 @@ button{
 }
 
 #viewmore{
-    color: black;
+    color: white;
     background-color: blue;
     font-style: bold;
     font-size: 15px;
+    font-weight: bold;
     float: right;
     padding: 10px 25px;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-right: 50px;
     margin-top: 20px;
     margin-bottom: 70px;
 
 
+}
+
+#play{
+    color: blue;
+    border-radius: 15px;
+    margin-inline-start: 100px;
+    
+}
+
+#intro{
+    color: white;
+}
+
+#txt2{
+    color: darkgray;
+}
+
+#image1{
+    width: 50%;
+    height: 60%;
 }
 
 img{
@@ -91,9 +113,12 @@ img{
 
 }
 
+
 #myimg{
     float: left;
-    margin-inline-start: 200px;
+    margin-inline-start: 100px;
+    height: 60%;
+    width: 50%;
 }
 
 
@@ -143,10 +168,19 @@ nav h4{
 h1{
 
     color: blue;
-    margin-inline-start: 50px;
-    text-align: center;
-    margin-top: 80px;
+    margin-inline-start: 150px;
+    text-align: start;
+    margin-top: 20px;
     font-size: 40px;
+}
+
+#header1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#header2{
+    margin-top: 100px;
 }
 
 h5{
@@ -268,5 +302,6 @@ img{
 span{
     display: inline-flex;
     margin-left: 50px;
+    margin-top: 20px;
 
 }
